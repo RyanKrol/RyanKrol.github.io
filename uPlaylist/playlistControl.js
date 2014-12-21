@@ -106,6 +106,7 @@ function onPlayerStateChange(event) {
             changeTextColour(counter, undefined);
         }
     }
+    console.log("state is changing");
 }
 
 // takes in the old playing video and changes the title to black, and then changes the next title to blue
