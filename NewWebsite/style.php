@@ -1,5 +1,13 @@
+
+html, body{
+    width:100%;
+    height:100%;
+    margin:0;
+}
+
 <?php
 
+header("Content-type: text/css; charset: UTF-8");
 $array1 = array("#F1F2B5","#7b4397","#8e9eab","#136a8a","#00bf8f","#ffb347","#43cea2","#D38312","#73C8A9","#83a4d4","#52c234","#fe8c00","#556270","#9D50BB","#B3FFAB","#DAD299","#215f00","#3D7EAA",
                 "#1CD8D2","#134E5E","#2BC0E4","#085078","#1D976C","#4CB8C4","#1A2980","#F09819","#3CA55C","#348F50");
 $array2 = array("#135058","#dc2430","#eef2f3","#267871","#001510","#ffcc33","#185a9d","#A83279","#373B44","#b6fbff","#061700","#f83600","#FF6B6B","#6E48AA","#12FFF7","#B0DAB9","#e4e4d9","#FFE47A",
@@ -9,18 +17,12 @@ $index  = rand(0, count($array1)-1);
 $colour1 = $array1[$index];
 $colour2 = $array2[$index];
 
-echo "html {";
-echo "    background: -moz-linear-gradient(45deg,  $colour1 0%, $colour2 100%); /* FF3.6+ */";
-echo "    background-attachment: fixed;";
+echo "body {";
+echo "background: -webkit-linear-gradient(45deg, $colour1 0%, $colour2 100%);";
+echo "background-attachment: fixed;";
 echo "}";
 
 ?>
-
-html, body{
-    width:100%;
-    height:100%;
-    margin:0;
-}
 
 #playlistID {
     /*position properties*/
