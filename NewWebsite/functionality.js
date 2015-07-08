@@ -33,7 +33,10 @@ $(document).ready(function(){
     //according to http://stackoverflow.com/questions/17487716/does-css-automatically-add-vendor-prefixes
     //JQuery adds the vendor prefixes for you, so there's no need to add multiple different backgrounds
     var gradientBackground = "-webkit-gradient(linear, left top, right top, from("+firstColour+"), to("+secondColour+"))"
-    $('body').css("background", gradientBackground);
+    $('body').css({
+        "background-attachment": "fixed",
+        "background" : gradientBackground
+    });
 
     $('#loader').css("border-top-color", firstColour);
     $('#loader2').css("border-top-color", thirdColour);
