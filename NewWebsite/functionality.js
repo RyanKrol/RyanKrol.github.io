@@ -34,7 +34,6 @@ $(document).ready(function(){
     //JQuery adds the vendor prefixes for you, so there's no need to add multiple different backgrounds
     var gradientBackground = "-webkit-gradient(linear, left top, right top, from("+firstColour+"), to("+secondColour+"))"
     $('body').css({
-        "background-attachment": "fixed",
         "background" : gradientBackground
     });
 
