@@ -14,6 +14,7 @@ var skipPoints        = []; //an array of points where a video has been made pri
 var player;                 //the variable that holds the video player
 var enlargedVideo     = false;
 
+/*
 $(document).ready(function(){
     var arrayOfBackgrounds = [["#F1F2B5","#135058"],["#7b4397","#dc2430"],["#8e9eab","#eef2f3"],["#136a8a","#267871"],["#00bf8f","#001510"],
                               ["#ffb347","#ffcc33"],["#43cea2","#185a9d"],["#D38312","#A83279"],["#73C8A9","#373B44"],["#83a4d4","#b6fbff"],
@@ -41,7 +42,7 @@ $(document).ready(function(){
     $('#loader2').css("border-top-color", thirdColour);
     $('#loader3').css("border-top-color", secondColour);
 });
-
+*/
 
 
 //so all of the validation looks fine at this point
