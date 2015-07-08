@@ -16,18 +16,21 @@
     <meta charset="UTF-8">
 
 </head>
-    <body class = "standard">
-        <form action = "playlist.html" id = "userInput" onsubmit = "return validateInput(this);" method = "GET">
-            <input type = "text"
-                autofocus
-                required
-                name = "playlistURL"
-                placeholder = 'YouTube Playlist ID'
-                id = "playlistID"
-                onfocus = "this.placeholder = ''"
-                onblur = "this.placeholder = 'YouTube Playlist ID'"
-                autocomplete="off">
-        </form>
+    <body class = "loaded">
+        <div class = "content">
+            <form id = "userInput" onsubmit = "return validateInput(this);" method = "GET">
+                <input type = "text"
+                    required
+                    name = "playlistURL"
+                    id = "playlistID"
+                    autocomplete="off">
+            </form>
+
+            <div class = "slogan">
+                <p>Give us your playlist, and we'll do the rest.</p>
+            </div>
+        </div>
+
         <div id="loader-wrapper">
             <div id="loader">
     			<div id = "loader2"></div>

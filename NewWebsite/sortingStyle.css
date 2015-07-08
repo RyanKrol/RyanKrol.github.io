@@ -1,0 +1,124 @@
+ul{
+    position:absolute;
+    width:65%;
+    left:12.5%;
+    height:50%;
+    top:25%;
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+#sortable li span{
+    position:relative;
+    top:5px;
+}
+#sortable li {
+    position:relative;
+    width: 100%;
+    height: 30px;
+
+    padding:0;
+    border:solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #0;
+
+    margin-top:2px;
+    background-color:#A0D468;
+
+    font-family: "HelveticaNeue-Thin", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-s80f;
+}
+
+.index{
+    left:25px;
+}
+.title{
+    left: 50px;
+    border-left-style: solid;
+    border-left-width: 2px;
+    padding-top: 5px;
+    padding-bottom:7px;
+    padding-left: 5px;
+}
+#sortable li .time{
+    position:absolute;
+    right:12px;
+    top:0px;
+    border-left-style: solid;
+    border-left-width: 2px;
+    padding-bottom:8px;
+    padding-top:5px;
+    padding-left:8px;
+    margin-bottom:5px;
+
+}
+
+#sortable li:active{
+    background-color: #ece8e8;
+
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -ms-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+}
+
+/*
+
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+html, body{
+    height:100%;
+    width:100%;
+}
+
+.title{
+    position:relative;
+    display:inline-block;
+    width: 80%;
+    left:10%;
+    top:25px;
+    height:100%;
+
+    top: 50%;
+      	-webkit-transform: translateY(-50%);
+      	-ms-transform: translateY(-50%);
+      	transform: translateY(-50%);
+
+    text-align: center;
+
+    border:solid;
+    border-width: 2px;
+    border-color: #0;
+}
+
+#sortable li {
+
+    width: 100%;
+    height: 30px;
+    border:solid;
+    border-width: 2px;
+    border-radius: 5px;
+    border-color: #0;
+    margin: 2px;
+    background-color:#A0D468;
+
+    font-family: "HelveticaNeue-Thin", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+
+#sortable li:active{
+    background-color: #ece8e8;
+
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -ms-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+}
+*/
